@@ -1,0 +1,91 @@
+/* Genel gövde ayarları */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+
+}
+
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: #ffdd57;
+
+}
+
+
+.light {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+
+    background-color: #444;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.light.on {
+    background-color: #ffdd57;
+
+    box-shadow: 0 0 40px #ffdd57, 0 0 80px #ffdd57;
+
+}
+
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+
+    border: none;
+    border-radius: 25px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s ease;
+
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+
+    transform: scale(1.1);
+
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+}
